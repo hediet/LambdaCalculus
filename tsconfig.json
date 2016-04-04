@@ -1,0 +1,20 @@
+{
+    "compilerOptions": {
+        "module": "system",
+        "target": "es6",
+        "sourceMap": true,
+        "jsx": "react",
+		"allowSyntheticDefaultImports": true,
+        "noImplicitReturns": true,
+        "comment": { "strictNullChecks": true }
+    },
+    "files": [
+		"typings/browser.d.ts",
+		"src/gui.tsx",
+        "src/helpers.ts",
+        "src/terms.ts",
+        "src/types.ts",
+        "src/typeInference.ts",
+        "src/parser.ts"
+    ]
+}

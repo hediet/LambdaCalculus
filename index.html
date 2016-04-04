@@ -1,0 +1,12 @@
+<!docype html>
+<meta charset="utf-8">
+<script src="jspm_packages/system.js"></script>
+<script src="jspm.browser.js"></script>
+<script src="jspm.config.js"></script>
+<body>
+  <div id="root"></div>
+  <script>
+    System.import("bootstrap/dist/css/bootstrap.css!");
+    System.import("style.css!");
+    SystemJS.import('src/gui.tsx');
+  </script>
